@@ -4,96 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ssachinaryaa.com </title>
+    <title>ssachinaryaa.com</title>
     <style>
-       
+        body{
+            font-family: sans-serif;
+            background-color: #efefef;
+        }
+
+        .section{
+            background-color:#fff;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        
+        #header{
+            background-image: url("https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            font-size: 25px;
+            color:black;
+            text-align: center;
+            border-radius: 10px;
+            padding: 20px;
+            background-size: cover;
+        }
+
+        .circle-img{
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 125px;
+
+        }
+
+        h2 span{
+            border: 2px solid rgb(64, 173, 247);
+            border-radius: 5px;
+            padding: 5px;
+            color:black;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        li{
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .fa{
+            padding: 25px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+        }
+
+        .fa-twitter{
+            background-color: rgb(28, 156, 241);
+        }
+        .fa-instagram{
+            background-color: rgb(231, 107, 107);
+        }
+        .fa-github{
+            background-color: rgb(0, 0, 0);
+        }
+        .fa-linkedin{
+            background-color: rgb(46, 150, 219);
+        }
+
+        .fa:hover{
+            opacity: 0.75;
+        }
 
     </style>
 </head>
 <body>
-    <!--header-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--header section-->
     <div id="header" class="section">
-<!--         <img src="https://api.sololearn.com/Uploads/Avatars/15520487.jpg" alt="img" class="circle-image"> -->
-        <p>ssachinaryaa</p>
+        <img src="https://api.sololearn.com/Uploads/Avatars/15520487.jpg" alt="img" class="circle-img">
+        <h2>Sachin Arya</h2>
+        <p>Web Developer | Tech Enthusiast</p>
+       
     </div>
 
-    <!--about me-->
     <div class="section">
-        <h1><span>About Me</span></h1>
-        <p>Hello! Dear reader,<br/>
-            I am <strong>ssachinaryaa</strong>. I am a engineering student in "Computer 
-            Science" field. I love talking tech and programing.
-            What about you?<br/>
-            Connect with me on social media by details given bellow:)
-        </p>
+        <!--about section-->
+        <h2><span>About Me</span></h2>
+        <p>Hey Dear ! <br/><br/><br/>
+        I am <strong>Sachin Arya</strong> .  I am an engineering
+        student who loves programming. 
+    At prensent my skill is front-end web development.
+    <br/><br/>sCurruntly I am 
+working on my backend web development skill so that I can work for you 
+as a  full stack developer. </p>
+    </div>
+
+    <!--skills-->
+    <div id="skills " class="section">
+     <h2><span>My Skills</span></h2>   
+
+     <ul>
+        <li>HTML<br/><progress min="0" max="100" value="95"></progress></li>
+        <li>CSS<br/><progress min="0" max="100" value="85"></progress></li>
+        <li>JS<br/><progress min="0" max="100" value="75"></progress></li>
+        <li>React<br/><progress min="0" max="100" value="60"></progress></li>
+        <li>NodeJS<br/><progress min="0" max="100" value="50"></progress></li>
+        <li>MogoDB<br/><progress min="0" max="100" value="30"></progress></li>
+    </ul>
+
 
     </div>
 
-    <!--my programing time-->
-    <div class="section">
+    <!--projects-->
+    <div id="projects" class="section">
+        <h2><span>My Projects</span></h2>
 
-        <h1><span>My Daily Routine</span></h1>
-        <table>
-            <tr>
-                <th>Working Days</th>
-                <th>Weekends</th>
-            </tr>
+        <p>Have patience !  Working on it !</p>
 
-            <tr>
-                <td>22:00 To 00:00 </td>
-                <td>22:00 To 02:00 </td>
-            </tr>
-            
-        </table>
     </div>
+    
 
-        <!--my skills-->
-    <div class="section">
-        <h1><span>My Skills</span></h1>
-        <ul>
-            <li>HTML<br/><progress min="0" max="100" value="95"></progress></li>
-            <li>CSS<br/><progress min="0" max="100" value="90"></progress></li>
-            <li>JS<br/><progress min="0" max="100" value="85"></progress></li>
-            <li>React<br/><progress min="0" max="100" value="85"></progress></li>
-            <li>NodeJS<br/><progress min="0" max="100" value="70"></progress></li>
-            <li>MogoDB<br/><progress min="0" max="100" value="60"></progress></li>
-        </ul>
+    <!--contact-->
+    <div id="contact" class="section">
+        <h2><span>Contact Me</span></h2>
+        <div style="text-align: center;">
+        <a href="https://twitter.com/ssachinaryaa" target="_blank" class="fa fa-twitter"></a> 
 
-        <!--My media(not mine:))-->
-        <div class="section">
-            <h1><span>My Media</span></h1>
-            <iframe height="150px" width="300px"  
-            src="https://youtube.com/embed/8hrJ4oN1u_8"
-             allowfullscreenn frameorder="0"></iframe>
+        <a href="https://instagram.com/ssachinaryaa" target="_blank" class="fa fa-instagram"></a>
 
-        </div>
+        <a href="https://github.com/ssachinaryaa" target="_blank" class="fa fa-github"></a>
 
-        <!--form section-->
-        <div class="section">
-            <h1><span>Contact Me</span></h1>
-            <form>
-                <input type="text" name="name" placeholder="Name" required/>
-                <input type="email" name="email" placeholder="Email" required/>
-                <textarea type="text" name="massage" placeholder="Massage" required></textarea>
-
-                <input type="submit" class="submit" value="Send">
-            </form>
-
-        </div>
-
-        <!--follow me on social media-->
-        <div class="section" id-i="Contact">
-            <h1><span>Follw Me </span></h1>
-            <a href="https://www.instagram.com/ssachinaryaa/"> 
-                <img src="https://www.sololearn./Uploads/icons/instagram.png" alt="insta" /></a> 
-
-                <a href="https://www.twitter.com/ssachinaryaa/"> 
-                    <img src="https://www.sololearn./Uploads/icons/twitter.png" alt="insta" /></a> 
-        </div>
-
-        <!--Copyrigth-->
-        <div>&copy ssachinaryaa.com 2021</div>
+        <a href="https://linkedin.com//sachin-arya-55b8a9199" target="_blank" class="fa fa-linkedin"></a>
     </div>
-
 </body>
 </html>
